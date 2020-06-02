@@ -3,7 +3,7 @@
 A simple neural network that predicts the first character that is stored in a
 [QR-code](https://de.wikipedia.org/wiki/QR-Code) such as this:
 
-![Sample QR-code](00bLF6qvQF.png)
+![Sample QR-code](./files/00bLF6qvQF.png)
 
 At training time, 
 QR codes are created randomly from alphanumeric strings of length ten (`00bLF6qvQF` in the example above).  
