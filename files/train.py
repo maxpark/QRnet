@@ -1,6 +1,6 @@
-import tensorflow as tf
-#import tensorflow.compat.v1 as tf
-#tf.disable_v2_behavior()
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 import qrcodes
 from qrcodes import IMAGE_SIZE
@@ -24,6 +24,7 @@ NUM_TEST_IMAGES = 5000
 print("Creating {} random test images ... ".format(NUM_TEST_IMAGES), end="", flush=True)
 test_images, test_labels = qrcodes.getRandomBatch(size=NUM_TEST_IMAGES)
 print("done")
+
 
 
 # Inputs
